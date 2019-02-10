@@ -1,6 +1,6 @@
 <?php
 function isEven($n){//$n is parameter
-    if($n%2==0){
+    if($n % 2 == 0){
         return true;
     }return false;
 }
