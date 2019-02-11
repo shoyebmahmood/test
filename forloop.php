@@ -1,5 +1,7 @@
 <?php
-$result =12
-for ($i==1; $i<=10; $i--){
-    echo $result;
+for($i=1; $i<=10; $i+=1){
+    //echo $i;
+    echo PHP_EOL;
+    for($j=0;$j<$i;$j++)
+    echo "*";
 }
