@@ -10,5 +10,6 @@ if (isEven($x)){//$x is argument
 echo  PHP_EOL;
 
 
-$x="abcd";
+$x="7";
 echo "factorial of {$x} is " .factorial($x);
+echo PHP_EOL;
